@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "DeepGuard - Deepfake Detector",
+  "version": "1.0.0",
+  "description": "Detect deepfake images and videos with AI-powered analysis",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
